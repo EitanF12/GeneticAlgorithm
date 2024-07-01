@@ -1,0 +1,15 @@
+Eitan
+I create 6 random configurations of 4*4 (there are 2^16 =65536 possible configurations).
+I run them and rank them by their maximum evaluation which is black_cells / gridSize ** 2.(percent of black cells)
+Then I do the next 3 times:
+	choose two parents, each configuraiton is chosen by a chance of P(i) = (evaluation of configuration i) / sum of evaluations of all of the configurations,
+	(I don't allow the same configuration to merge with itself)
+	and then I merge them this way: A1 - upper part of A , A2- lower part of A, B1- upper part of A,B2 - lower part of B
+	A1 B1 -> A1 B1 (each column is the newly merged child)
+	A2 B2 -> B2 A2
+	
+	for the first couple the mutation rate of each cell in the two children is 0.1, 
+	for the second couple is 0.2
+	for the first couple is 0.3
+
+and I repeat this proccesss as much as I want to get a better result.
