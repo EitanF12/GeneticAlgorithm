@@ -13,19 +13,12 @@ read more at
 
 # My project
 I have simulated The game of life in board sizes from 10 to 50
-On the base of the game I initialized 6 random 4*4 initial states and tracked their growth,
+On the base of the game I initialized 6 random 4*4 initial states and tracked their growth.
+Using a genetic algoriithm I have merged the best Initial states by while the utility is measured by the maximal growth.
+The merged initial states were mutated by some chance, eventually improving the utilities drastically and saved the best states.
 
 # Features
-* Supports file transfer in any format up to 512 MB
-* Binary protocol for efficient communication
-* Python server handling multiple parallel connections
-* C++ clients with unique encryption keys for each connection
-* Checksum verification for data integrity
-* Winsock communication managed by a singleton object
-* Factory design pattern for simplified main function and distinct instruction behavior
-* SQL database support for allowing reconnections
-* Defensive programming to prevent buffer overflows
-Vulnerability research of the protocol conducted at the end of the project
+* Allowes me to test 
 
 # Usage
 
