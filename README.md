@@ -4,6 +4,7 @@ Introduction
 Conway's Game of Life is a cellular automata which mimics the evolution which varies by an initial state.
 This game is proven to be Turing Complete and can mimic a turing machine.
 Because of that there is an intrest in studying it, and especially different initial states and their evolution.
+Note: A metushlah in the Game of Life is a pattern that evolves for a long period before stabilizing or disappearing.
 ```
 read more at 
 [wikiLife](https://conwaylife.com/wiki/Conway%27s_Game_of_Life)
@@ -38,16 +39,18 @@ python maman12.py
 
 5.you can run and study each configuration in "metushlahSimulation.py" 
 by changing in the main the initial matrix and running
-```base
+```bash
 python metushlahSimulation.py
 ```
 
+Some cool results are in "good methuslah" folder some examples:
 
-# Some cool results
+**Initial State**
+
+![](https://github.com/EitanF12/GeneticAlgorithm/blob/main/good%20metuaslah/2.png)
+
+**results**
+
+![](https://github.com/EitanF12/GeneticAlgorithm/blob/main/good%20metuaslah/Figure_2.png)
 
 
-
-4.To test reconnection, close the client and run it again:
-```
-./client
-```
