@@ -18,22 +18,34 @@ Using a genetic algoriithm I have merged the best Initial states by while the ut
 The merged initial states were mutated by some chance, eventually improving the utilities drastically and saved the best states.
 
 # Features
-* Allowes me to test 
+* Find and Measures the best random initial states
+* Collects statistics about the progression
+* Finds the best Initial states using a genetic algorithm which by randomneess finds the best units
+* In the end of the process it produces an improvment graph between generations to allow studying and modyfying the algorithm
 
 # Usage
 
-1.Ensure the following files are deleted on the client:
-me.info
-defensive.db
+1.To start the genetic algorithm and find configurations
+Run the maman12.py in bash:
+```bash
+python maman12.py
+```
+2.choose board size and see the cool simulations of the random configurations (:
+ now you can see the results of each simulation by the amount of filled cells the the configuration has managed to fill.
+ 
+3.run next simulation to improve the pool of initial configurations
+4.press kill to see the improvment between generations.
 
-2.Run the server in bash:
-```bash
-python server.py
+5.you can run and study each configuration in "metushlahSimulation.py" 
+by changing in the main the initial matrix and running
+```base
+python metushlahSimulation.py
 ```
-3.Run the client:
-```bash
-./client
-```
+
+
+# Some cool results
+
+
 
 4.To test reconnection, close the client and run it again:
 ```
